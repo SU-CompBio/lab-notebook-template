@@ -1,0 +1,18 @@
+# data directory
+data/
+
+# r stuff
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# linux backup
+*~
+
+# office stuff
+.~lock.*#
+~$*.doc*
+~$*.xls*
+~$*.ppt*
