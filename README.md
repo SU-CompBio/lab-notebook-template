@@ -1,5 +1,8 @@
 # Project title
 
+Recommended structure for bioinformatics projects, and lab noteboks. Work in
+progress, comments are welcome.
+
 ### Name and University/Institute/Department
 
 Started on: 2021-01-01
