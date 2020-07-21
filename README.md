@@ -46,3 +46,7 @@ agencies, etc. Ask your patent office, grant office, etc if unsure.
 Update `.gitignore` using
 [gitignore.io](https://www.toptal.com/developers/gitignore) and add various file
 types based on the languages, tools and operating systems you are using.
+
+[Think about naming](https://speakerdeck.com/jennybc/how-to-name-files)
+directories, result files, scripts, figures long and hard. As said elsewhere, if
+your names are wrong, your entire life (project) is wrong.
