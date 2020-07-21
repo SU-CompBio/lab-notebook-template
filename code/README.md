@@ -5,6 +5,17 @@ directories contain.
 
 Some guidelines on writing scripts.
 
+- Scripts should alwas follow a style-guide, so code is more readable and your
+  future self or collaborators will understand it easily.
+  - [R style guide](https://style.tidyverse.org/)
+  - [Python style guide](https://www.python.org/dev/peps/pep-0008/)
+  - [shell style guide](https://google.github.io/styleguide/shellguide.html)
+- Comment your code, so others know what what your code is doing, what is the
+  expected input, and what is the expected output.
+- If your code is getting complex and reused regularly, it is time to think
+  about writing a package or at least a well maintained script with command line
+  arguments and version numbers in a separate repository.
+  - Use [semantic versioning](https://semver.org/)
 - Scripts should contain as few hard-coded file paths as possible. If necessary,
   define these as command line arguments or at least put them in a variable at
   the start of the script.
