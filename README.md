@@ -1,6 +1,6 @@
 # Project title
 
-Recommended structure for bioinformatics projects, and lab noteboks. Work in
+Recommended structure for bioinformatics projects, and lab notebooks. Work in
 progress, comments are welcome.
 
 ### Name and University/Institute/Department
