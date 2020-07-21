@@ -8,8 +8,9 @@ data/original/
 .Ruserdata
 .Rproj.user/
 
-# linux backup
+# linux backup and swap files
 *~
+*.swp
 
 # office stuff
 .~lock.*#
