@@ -7,6 +7,8 @@ progress, comments are welcome.
 
 Started on: 2021-01-01
 
+Supervisor: Jane Doe at Top University, Important Department
+
 Short summary of the project, with links to additional repositories, software
 and databases relevant for the project. The summary should include the
 following:
@@ -34,3 +36,13 @@ LICENSE
 
 Explain the content of the `data/`, `docs/` and `code/` directories, and edit
 the above block as needed, to include additional top-level directories or files.
+
+Modify `LICENSE` and `.gitignore` as needed.
+
+Choose a proper license [here](https://choosealicense.com/), also taking into
+account university intellectual rights, your contract, requirements of granting
+agencies, etc. Ask your patent office, grant office, etc if unsure.
+
+Update `.gitignore` using
+[gitignore.io](https://www.toptal.com/developers/gitignore) and add various file
+types based on the languages, tools and operating systems you are using.
