@@ -50,3 +50,14 @@ types based on the languages, tools and operating systems you are using.
 [Think about naming](https://speakerdeck.com/jennybc/how-to-name-files)
 directories, result files, scripts, figures long and hard. As said elsewhere, if
 your names are wrong, your entire life (project) is wrong.
+
+In some cases, countersigning the work might be needed, verifying that the
+scripts, documentation, results, figures are correct. A lightweight method would
+be git signed tags. See more
+[here](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and
+[here](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work). An example:
+
+```sh
+git tag -a verified-2021-01-10 -m "Repo checked and verified on 2021-01-10" -s
+git push origin --tags
+```
