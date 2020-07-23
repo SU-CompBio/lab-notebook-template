@@ -39,6 +39,8 @@ the above block as needed, to include additional top-level directories or files.
 
 Modify `LICENSE` and `.gitignore` as needed.
 
+### Notes
+
 Choose a proper license [here](https://choosealicense.com/), also taking into
 account university intellectual rights, your contract, requirements of granting
 agencies, etc. Ask your patent office, grant office, etc if unsure.
