@@ -63,3 +63,5 @@ be git signed tags. See more
 git tag -a verified-2021-01-10 -m "Repo checked and verified on 2021-01-10" -s
 git push origin --tags
 ```
+
+Manage ideas, TODO, etc with issues and milestones.
