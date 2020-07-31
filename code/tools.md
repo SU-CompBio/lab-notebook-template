@@ -6,7 +6,6 @@ number, download location and any modifications. Modify as needed.
 | Software | Version | Download location                                         | Comments |
 | -------- |-------- | --------------------------------------------------------- | -------- |
 | bwa      | 0.7.17  | [github](https://github.com/lh3/bwa/releases/tag/v0.7.17) | none     |
-| -------- |-------- | --------------------------------------------------------- | -------- |
 
 Tools might include stand-alone binaries, repos cloned and compiled from github
 or bitbucket, R packages from CRAN or Bioconductor, conda packages, brew
