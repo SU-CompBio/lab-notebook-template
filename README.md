@@ -41,18 +41,22 @@ Modify `LICENSE` and `.gitignore` as needed.
 
 ### Notes
 
+#### License
 Choose a proper license [here](https://choosealicense.com/), also taking into
 account university intellectual rights, your contract, requirements of granting
 agencies, etc. Ask your patent office, grant office, etc if unsure.
 
+#### .gitignore
 Update `.gitignore` using
 [gitignore.io](https://www.toptal.com/developers/gitignore) and add various file
 types based on the languages, tools and operating systems you are using.
 
+#### Names
 [Think about naming](https://speakerdeck.com/jennybc/how-to-name-files)
 directories, result files, scripts, figures long and hard. As said elsewhere, if
 your names are wrong, your entire life (project) is wrong.
 
+#### Verifying the notebook
 In some cases, countersigning the work might be needed, verifying that the
 scripts, documentation, results, figures are correct. A lightweight method would
 be git signed tags. See more
@@ -64,4 +68,21 @@ git tag -a verified-2021-01-10 -m "Repo checked and verified on 2021-01-10" -s
 git push origin --tags
 ```
 
+#### Keeping track of questions, ideas
 Manage ideas, TODO, etc with issues and milestones.
+
+#### Thinking about the future
+Think about struturing the repo in a way, that final scripts, results, tables
+and plots necessary for a paper can be easily collected. Many journal now
+require the _source data_ for all figures, so it is best to prepare:
+
+1. a clearly organized and commented script processing the data
+2. the final data table used for figure generation
+3. a clearly organized and commented script plotting the data
+4. the plot in pdf form
+
+for all figure panels of a paper.
+
+Additionally, many journals now require the exact version of all software used
+for analysis. Keep track of software used, the version number, download
+location, and possible modifications. `code/tools.md` might be a good place.
