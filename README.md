@@ -25,6 +25,9 @@ following:
 
 ### Repository structure
 
+Use an informative repository name, like `cancer-expression-variablity`,
+`aml-splicing-classification`, etc.
+
 ```
 data/
 docs/

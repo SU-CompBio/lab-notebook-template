@@ -36,6 +36,19 @@ for i in `ls $datadir`; do
 done
 ```
 
+or
+
+```r
+args <- commandArgs(trailingOnly = TRUE)
+
+input1 <- args[1]
+input2 <- args[2]
+
+# do stuff
+
+write.table(data, file = args[3])
+```
+
 Bad
 
 ```sh
@@ -52,4 +65,5 @@ done
   corrections of the data. Manual editing of data, for example an excel table,
   is only allowed if there is absolutely no other way. It is better to import an
   excel table into R, and correct problems using R functions, than manually
-  editing the excel, saving it and importing the data later.
+  editing the excel, saving it and importing the data later. If you must edit
+  the data manually, keep a copy of the original.
