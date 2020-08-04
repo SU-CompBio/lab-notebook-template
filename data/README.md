@@ -29,7 +29,7 @@ data, coming from collaborators, experiments, the sequecing machine, etc.
 ## Shared data
 
 If you are working with data that is shared among users and not present in the
-`/data` directory, add a short description with the exact location, like:
+`data/` directory, add a short description with the exact location, like:
 
 Data available at server 1.2.3.4
 
@@ -37,10 +37,10 @@ Data available at server 1.2.3.4
 /path/to/data
 ```
 
-Additionally, provide a `README.md` describing any data processing steps on the
+Additionally, provide a `README-shared.md` describing any data processing steps on the
 shared data, with command lines, tools, tool parameters, and tool version. Use a
 symlink to link your README from the repo to the shared data location.
 
 ```
-ln -s /my/repo/data/README.md /shared/data/README.md
+ln -s /my/repo/data/README-shared.md /shared/data/README.md
 ```

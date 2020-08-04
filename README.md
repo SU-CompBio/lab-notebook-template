@@ -20,7 +20,7 @@ following:
   maximum speed, field investigations in rural areas. Of course, this will
   change, but a starting set of tools and methods should be mentioned.
 - Some background information. What is known in the field, is it a well-studied
-  area, or flying pigs are a completely new groundbreaking research topic? Link
+  area, or flying pigs are a completely new, groundbreaking research topic? Link
   a few reviews, or the paper(s) leading to the main question.
 
 ### Repository structure
@@ -75,8 +75,8 @@ git push origin --tags
 Manage ideas, TODO, etc with issues and milestones.
 
 #### Thinking about the future
-Think about struturing the repo in a way, that final scripts, results, tables
-and plots necessary for a paper can be easily collected. Many journal now
+Think about structuring the repo in a way, that final scripts, results, tables
+and plots necessary for a paper can be easily collected. Many journals now
 require the _source data_ for all figures, so it is best to prepare:
 
 1. a clearly organized and commented script processing the data
@@ -89,3 +89,8 @@ for all figure panels of a paper.
 Additionally, many journals now require the exact version of all software used
 for analysis. Keep track of software used, the version number, download
 location, and possible modifications. `code/tools.md` might be a good place.
+
+### Date and time format
+
+If you use anything else then
+[ISO-8601](https://en.wikipedia.org/wiki/ISO_8601), you are fired.

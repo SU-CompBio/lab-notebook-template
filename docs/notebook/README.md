@@ -11,9 +11,9 @@ itself, not the final publication ready information.
 ```
 liver-cancer-analysis.Rmd
 splicing-diversity-tests.Rmd
-2021-week1.Rmd
+2021-W01.Rmd
 2021-01-01.Rmd
-2021-week1-aml-data-cleanup.Rmd
+2021-W01-aml-data-cleanup.Rmd
 ```
 
 [R markdown](https://rmarkdown.rstudio.com/) files are an excellent way to keep
@@ -29,17 +29,17 @@ monthly. `README.md` without dates is always the current one.
 
 ```
 README.md
-README-2019.md
 README-2020.md
+README-2021.md
 ```
 
 or
 
 ```
 README.md
-README-2020-10.md
-README-2020-11.md
-README-2020-12.md
+README-2021-10.md
+README-2021-11.md
+README-2021-12.md
 ```
 
 ### 2021-01-01
